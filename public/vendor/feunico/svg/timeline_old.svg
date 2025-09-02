@@ -1,0 +1,30 @@
+<svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 20 20" style="enable-background:new 0 0 20 20;" xml:space="preserve">
+<g style="display:none;">
+	<g style="display:inline;">
+		<path style="fill:#FFE736;" d="M10,9.32c0.75,0,1.36-0.61,1.36-1.36l0,0V2.52c0-0.75-0.61-1.36-1.36-1.36S8.64,1.77,8.64,2.52
+			v5.44C8.64,8.71,9.25,9.32,10,9.32L10,9.32z"/>
+		<path style="fill:#FFE736;" d="M16.35,2.55c-0.56-0.5-1.42-0.45-1.92,0.12c-0.49,0.56-0.45,1.41,0.1,1.91
+			c1.44,1.26,2.27,3.09,2.27,5.01c0,3.75-3.04,6.8-6.8,6.8s-6.8-3.04-6.8-6.8c0-1.92,0.83-3.74,2.27-5.01
+			c0.56-0.5,0.6-1.36,0.09-1.92c-0.5-0.55-1.35-0.6-1.91-0.1C-0.27,6.07-0.6,12.08,2.9,16s9.52,4.25,13.44,0.75
+			s4.25-9.52,0.75-13.44C16.86,3.03,16.61,2.78,16.35,2.55L16.35,2.55z"/>
+	</g>
+</g>
+<g style="display:none;">
+	<path style="display:inline;fill:none;stroke:#00E741;stroke-width:1.25;stroke-miterlimit:5;" d="M18.75,1.25H1.25v7.5h2.98L6.1,5
+		h2.8l3.6,7.2l1.73-3.45h4.52V1.25z"/>
+	<path style="display:inline;fill:none;stroke:#00E741;stroke-width:1.25;stroke-miterlimit:5;" d="M18.75,11.25h-2.98L13.9,15h-2.8
+		L7.5,7.8l-1.73,3.45H1.25v7.5h17.5V11.25z"/>
+</g>
+<g>
+	<path style="fill:#FFBC5C;stroke:#73FF73;stroke-width:2;stroke-linecap:round;stroke-miterlimit:1.6667;" d="M1.67,2.08h16.67"/>
+	<path style="fill:#FFBC5C;stroke:#73FF73;stroke-width:2;stroke-linecap:round;stroke-miterlimit:1.6667;" d="M1.67,17.92h16.67"/>
+	<path style="fill:#FFBC5C;stroke:#73FF73;stroke-linecap:round;stroke-miterlimit:1.6667;" d="M3.33,2.08v15.83"/>
+	<path style="fill:#FFBC5C;stroke:#73FF73;stroke-linecap:round;stroke-miterlimit:1.6667;" d="M16.67,2.08v15.83"/>
+	<path style="fill:#FFBC5C;stroke:#73FF73;stroke-linecap:round;stroke-miterlimit:1.6667;" d="M10,2.08v15.83"/>
+	<path style="fill:#0B00D0;stroke:#73FF73;stroke-linejoin:round;stroke-miterlimit:1.6667;" d="M4.83,11.84h-3v3h3V11.84z"/>
+	<path style="fill:#0B00D0;stroke:#73FF73;stroke-linejoin:round;stroke-miterlimit:1.6667;" d="M11.5,9.99H8.5v3h3L11.5,9.99
+		L11.5,9.99z"/>
+	<path style="fill:#0B00D0;stroke:#73FF73;stroke-linejoin:round;stroke-miterlimit:1.6667;" d="M18.16,12.99h-3v3h3V12.99z"/>
+</g>
+</svg>

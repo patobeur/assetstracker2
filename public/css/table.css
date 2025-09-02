@@ -1,0 +1,117 @@
+:root {
+	--black: #0f0f41;
+	--border-color: #1a1a55;
+	--text-color: #666;
+	--table-bg-color: rgb(228, 228, 228);
+	--tr-hover-bg-color: rgb(116, 116, 116);
+	--tr-hover-txt-color: rgb(255, 255, 255);
+	--td-hover-bg-color: rgb(180, 180, 180);
+	--td-hover-txt-color: rgb(255, 255, 255);
+
+
+    --palette_02: rgb(176, 185, 168);
+    --table-radius: 0.7rem;
+}
+
+
+
+.table-responsive {
+	max-width: 100%;
+	border-radius: var(--table-radius);
+	font-family: var(--font-table);
+	border-spacing: 0;
+	border-collapse: separate;
+	width: 100%;
+	position: relative;
+	color: var(--text-color);
+	font-size: 1.2rem;
+	background: none;
+	border:0px;
+	box-shadow: 0 1px 2px #d1d1d1;
+	background-color: var(--table-bg-color);
+    overflow: hidden;
+	font-size: 0.8rem;
+	a:link {
+		color: #ffffff;
+		font-weight: bold;
+		text-decoration: none;
+	}
+	a:visited {
+		color: #ffffff;
+		font-weight: bold;
+		text-decoration: none;
+	}
+	:is(a:active, a:hover) {
+		color: #0011ff;
+		text-decoration: underline;
+	}
+    td,th {
+        border-spacing: 0;
+        border-collapse: separate;
+        padding: 0 7px;
+        color:var(--black);
+        border-top: 1px solid none;
+        border-bottom: 1px solid none;
+        border-left: 1px solid none;
+        border-top: 1px solid var(--border-color);
+        border-bottom: 1px solid var(--border-color);
+        border-left: 1px solid var(--border-color);
+        border-right: 1px solid var(--border-color);
+        &:hover {
+            background-color: var(--td-hover-bg-color);
+        }
+    }
+	tbody {
+		tr {
+			&:last-child {
+                td:first-child {
+                    border-bottom-left-radius: var(--table-radius);
+                }
+                td:last-child {
+                    border-bottom-right-radius: var(--table-radius);
+                }
+			}
+            &:hover {
+                background-color: var(--tr-hover-bg-color);
+                color:var(--tr-hover-txt-color);
+                td {
+                    color:var(--td-hover-txt-color);
+                }
+            }
+		}
+	}
+	thead {
+        tr {
+            th{
+                color:white;
+            }
+			&:first-child {
+				th:first-child {
+					border-top-left-radius: var(--table-radius);
+				}
+				th:last-child {
+					border-top-right-radius: var(--table-radius);
+				}
+			}
+			&:first-child {
+                background-color: #100d3b;
+                color: white;
+            }
+         }
+        }
+	tfoot {
+		padding: 21px 25px 22px 25px;
+		border-top: 1px solid #fafafa;
+		border-bottom: 1px solid #e0e0e0;
+		/* background-color: -webkit-gradient(linear, left top, left bottom, from(#ededed), to(#414141)); */
+		tr {
+			td {
+				text-align: center;
+				padding: 3px 5px;
+			}
+		}
+	}
+}
+.plus {
+    background-color: #0b5309;
+}

@@ -1,0 +1,112 @@
+.form-container-table {
+	position: relative;		
+	.form {
+		max-width: min-content;
+		margin: 0 auto;
+		padding: 1em;
+		background: #ffffff86;
+		display: flex;
+		justify-content: flex-start;
+		flex-direction: column;
+		box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+		border-radius: var(--form-table-radius);
+		position: relative;		
+		p {
+			text-align: center;
+		}
+		.actions{
+			position: absolute;
+			top:0;
+		}
+	}
+}
+.form-container {
+	.form {
+		max-width: 300px;
+		margin: 0 auto;
+		padding: 1em;
+		background: #ffffff86;
+		border-radius: 3px;
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
+		flex-direction: column;
+		box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+		border-radius: 12px;		
+		p {
+			text-align: center;
+		}
+		label {
+			position: relative;
+			font-weight: bold;
+			text-align: left;
+			padding: 7px ;
+			color: #333;
+			display: block;
+		}
+	}
+}
+.form-container .form .blocs {
+	width: 100%;
+	padding: 5px;
+	padding-top: 20px;
+	&.center {
+		display: flex;
+		justify-content: center;
+	}
+	.input-container {
+		position: relative;
+		display: flex;
+		align-items: center;
+		justify-content: flex-start;
+		input[type="text"],
+		input[type="password"] {
+			width: 100%;
+			padding: 5px 5px 5px 35px;
+			border: 1px solid #ccc;
+			border-radius: 9px;
+			margin-bottom: 1em;
+			font-size: 16px;
+			box-sizing: border-box;
+		}
+		input:focus {
+			border-color: #5b9bd5;
+			outline: none;
+			box-shadow: 0 0 5px rgba(91, 155, 213, 0.5);
+		}
+		.icon {
+			position: absolute;
+			top: 3px;
+			left: 5px;
+			color: rgb(77, 77, 77);
+			font-size: 18px;
+		}
+		:hover.icon {
+			left: 15px;
+		}
+	}
+	button {
+		font-family: 'Poppins', sans-serif;
+		background-color: #3498db;
+		color: #fff;
+		border: none;
+		padding: 10px 20px;
+		border-radius: 5px;
+		cursor: pointer;
+		text-transform: uppercase;
+		font-size: 14px;
+		transition: background-color 0.3s;
+	}
+	
+	button.ok {
+		background-color:rgb(91, 213, 115);
+	}
+	button:hover {
+		background-color: #2980b9;
+	}
+}
+
+
+
+
+
